@@ -1,4 +1,4 @@
-"""eWaterCycle wrapper for the LeakyBucket model."""
+"""eWaterCycle wrapper for the Hype model."""
 import json
 from collections.abc import ItemsView
 from pathlib import Path
@@ -9,8 +9,8 @@ from ewatercycle.base.model import ContainerizedModel, eWaterCycleModel
 from ewatercycle.container import ContainerImage
 
 
-class LeakyBucketMethods(eWaterCycleModel):
-    """The eWatercycle LeakyBucket model.
+class HypeMethods(eWaterCycleModel):
+    """The eWatercycle Hype model.
     
     Setup args:
         leakiness: The "leakiness" of the bucket in [d-1].
@@ -36,7 +36,7 @@ class LeakyBucketMethods(eWaterCycleModel):
         for kwarg in kwargs:  # Write any kwargs to the config.
             self._config[kwarg] = kwargs[kwarg]
 
-        config_file = self._cfg_dir / "leakybucket_config.json"
+        config_file = self._cfg_dir / "hype_config.json"
 
         with config_file.open(mode="w") as f:
             f.write(json.dumps(self._config, indent=4))
@@ -48,8 +48,8 @@ class LeakyBucketMethods(eWaterCycleModel):
         return self._config.items()
 
 
-class LeakyBucket(ContainerizedModel, LeakyBucketMethods):
-    """The LeakyBucket eWaterCycle model, with the Container Registry docker image."""
+class Hype(ContainerizedModel, HypeMethods):
+    """The Hype eWaterCycle model, with the Container Registry docker image."""
     bmi_image: ContainerImage = ContainerImage(
-        "ghcr.io/ewatercycle/leakybucket-grpc4bmi:v0.0.1"
+        "ghcr.io/ewatercycle/hype-grpc4bmi:v0.0.1"
     )

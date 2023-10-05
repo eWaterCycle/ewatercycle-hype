@@ -2,19 +2,19 @@
 
 This repository is a template for adding models to eWatercycle, and will guide you through all required steps.
 
-To use the template, press the green "Use this template" button on GitHub, and replace all instances of "leakybucket"/"LeakyBucket" with your model name.
+To use the template, press the green "Use this template" button on GitHub, and replace all instances of "hype"/"Hype" with your model name.
 
 ## Installation
 Install this package alongside your eWaterCycle installation
 
 ```console
-pip install ewatercycle-leakybucket
+pip install ewatercycle-hype
 ```
 
-Then LeakyBucket becomes available as one of the eWaterCycle models
+Then Hype becomes available as one of the eWaterCycle models
 
 ```python
-from ewatercycle.models import LeakyBucket
+from ewatercycle.models import Hype
 ```
 
 ## Implementing your own model

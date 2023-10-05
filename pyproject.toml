@@ -3,10 +3,10 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.version]
-path = "src/ewatercycle_leakybucket/__init__.py"
+path = "src/ewatercycle_hype/__init__.py"
 
 [project]
-name = "ewatercycle-leakybucket"
+name = "ewatercycle-hype"
 description = "Template project for starting a new eWaterCycle plugin"
 readme = "README.md"
 license = "Apache-2.0"
@@ -31,4 +31,4 @@ dependencies = [
 
 # This registers the plugin such that it is discoverable by eWaterCycle
 [project.entry-points."ewatercycle.models"]
-LeakyBucket = "ewatercycle_leakybucket.model:LeakyBucket"
+Hype = "ewatercycle_hype.model:Hype"
