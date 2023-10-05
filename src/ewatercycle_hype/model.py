@@ -14,7 +14,7 @@ from pydantic import PrivateAttr, model_validator
 from ewatercycle.base.model import ISO_TIMEFMT, ContainerizedModel
 from ewatercycle.base.parameter_set import ParameterSet
 from ewatercycle.container import ContainerImage
-from ewatercycle.plugins.hype.forcing import HypeForcing
+from ewatercycle_hype.forcing import HypeForcing
 from ewatercycle.util import geographical_distances, get_time
 
 logger = logging.getLogger(__name__)
