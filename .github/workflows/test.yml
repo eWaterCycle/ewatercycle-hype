@@ -31,4 +31,4 @@ jobs:
           pip3 install -e .
       - name: Test with pytest
         run: pytest
-         shell: micromamba-shell {0}
+        shell: micromamba-shell {0}
