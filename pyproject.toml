@@ -32,3 +32,5 @@ dependencies = [
 # This registers the plugin such that it is discoverable by eWaterCycle
 [project.entry-points."ewatercycle.models"]
 Hype = "ewatercycle_hype.model:Hype"
+[project.entry-points."ewatercycle.forcings"]
+HypeForcing = "ewatercycle_hype.forcing:HypeForcing"
