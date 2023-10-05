@@ -1,5 +1,7 @@
 # eWaterCycle plugin for HYPE hydrological model
 
+[![Research Software Directory Badge](https://img.shields.io/badge/rsd-ewatercycle-00a3e3.svg)](https://www.research-software.nl/software/ewatercycle-hype)
+
 HYPE documentation at http://www.smhi.net/hype/wiki/doku.php .
 
 ## Installation
