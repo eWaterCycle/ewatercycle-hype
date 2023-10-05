@@ -10,7 +10,6 @@ name = "ewatercycle-hype"
 description = "eWaterCycle plugin for HYPE hydrological model"
 readme = "README.md"
 license = "Apache-2.0"
-version = "0.0.1"
 authors = [
   { name = "Bart Schilperoort, Peter Kalverla, Stefan Verhoeven", email = "b.schilperoort@esciencecenter.nl" },
 ]
