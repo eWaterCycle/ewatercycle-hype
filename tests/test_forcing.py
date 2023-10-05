@@ -9,7 +9,7 @@ from esmvalcore.experimental.recipe_info import RecipeInfo
 from esmvalcore.experimental.recipe_output import RecipeOutput
 
 from ewatercycle.base.forcing import FORCING_YAML
-from ewatercycle.plugins.hype.forcing import HypeForcing, build_hype_recipe
+from ewatercycle_hype.forcing import HypeForcing, build_hype_recipe
 from ewatercycle.testing.helpers import reyamlify
 
 

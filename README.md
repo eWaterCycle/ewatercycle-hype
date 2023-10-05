@@ -15,7 +15,6 @@ conda activate ewatercycle-hype
 Install this package alongside your eWaterCycle installation
 
 ```console
-
 pip install ewatercycle-hype
 ```
 

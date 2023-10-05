@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 # Ignore downloaded file
-envionment.yml
+environment.yml
