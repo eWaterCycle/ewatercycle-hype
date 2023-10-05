@@ -3,9 +3,19 @@
 HYPE documentation at http://www.smhi.net/hype/wiki/doku.php .
 
 ## Installation
+
+eWaterCycle must be run in a [mamba](https://conda-forge.org/miniforge/) environment. The environment can be created with
+
+```console
+wget https://raw.githubusercontent.com/eWaterCycle/ewatercycle/main/environment.yml
+mamba env create --name ewatercycle-hype --file environment.yml
+conda activate ewatercycle-hype
+```
+
 Install this package alongside your eWaterCycle installation
 
 ```console
+
 pip install ewatercycle-hype
 ```
 

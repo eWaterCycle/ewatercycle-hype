@@ -27,6 +27,7 @@ classifiers = [
 dependencies = [
   "ewatercycle",
 ]
+dynamic = ["version"]
 
 # This registers the plugin such that it is discoverable by eWaterCycle
 [project.entry-points."ewatercycle.models"]
