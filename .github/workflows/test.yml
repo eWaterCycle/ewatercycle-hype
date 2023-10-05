@@ -28,6 +28,8 @@ jobs:
         shell: micromamba-shell {0}
         run: |
           pip3 install pytest
+          # TODO remove once ewatercycle v2 is on pypi
+          pip3 install git+https://github.com/eWaterCycle/ewatercycle@plugin-less
           pip3 install -e .
       - name: Test with pytest
         run: pytest
