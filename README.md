@@ -18,8 +18,8 @@ from ewatercycle.models import Hype
 ## Usage
 
 Usage of HYPE forcing generation and model execution is show in 
-[docs/generate_forcing.ipynb](https://github.com/eWaterCycle/ewatercycle-leakybucket/tree/main/docs/generate_forcing.ipynb) and [docs/model.ipynb](https://github.com/eWaterCycle/ewatercycle-leakybucket/tree/main/docs/model.ipynb) respectively.
-|
+[docs/generate_forcing.ipynb](https://github.com/eWaterCycle/ewatercycle-hype/tree/main/docs/generate_forcing.ipynb) and [docs/model.ipynb](https://github.com/eWaterCycle/ewatercycle-hype/tree/main/docs/model.ipynb) respectively.
+
 ## License
 
 `ewatercycle-hype` is distributed under the terms of the [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html) license.
