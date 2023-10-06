@@ -1,6 +1,8 @@
 # eWaterCycle plugin for HYPE hydrological model
 
 [![Research Software Directory Badge](https://img.shields.io/badge/rsd-00a3e3.svg)](https://www.research-software.nl/software/ewatercycle-hype)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8413759.svg)](https://doi.org/10.5281/zenodo.8413759)
+[![PyPI](https://img.shields.io/pypi/v/ewatercycle-hype)](https://pypi.org/project/ewatercycle-hype/)
 
 HYPE plugin for [eWatercycle](https://ewatercycle.readthedocs.io/).
 

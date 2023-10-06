@@ -34,3 +34,6 @@ dynamic = ["version"]
 Hype = "ewatercycle_hype.model:Hype"
 [project.entry-points."ewatercycle.forcings"]
 HypeForcing = "ewatercycle_hype.forcing:HypeForcing"
+
+[project.urls]
+homepage = "https://github.com/eWaterCycle/ewatercycle-hype/"
